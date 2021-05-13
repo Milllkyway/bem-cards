@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D7D8DD;
+}
+
+.card {
+    display: flex; 
+    max-width: 750px;
+    color: #808080;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main-content {
+    width: 500px;
+}
+
+.card__position {
+    margin: 0 auto;
+    padding:  10px 20px 15px 15px;
+    margin-top: 50px !important;
+}
+
+.card__title {
+    margin: 20px 10px 0px 24px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.point {
+    display: table-cell;
+    vertical-align: middle;
+    transform: scale(0.6em);
+    color: #BABABA;
+}
+
+.point_important {
+    transform: scale(1.5);
+    color: #FD324A;
+    padding-top: 3px;
+}
+
+.description, .info-container {
+    display: table; 
+    width: 480px;
+}
+
+.description__text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 0 0 17px;
+    font-size: 0.9em;
+}
+
+.clar-info {
+    display: inline-block; 
+    width: 480px;
+}
+
+.clar-info__icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+    padding-left: 27px;
+}
+
+.clar-info__icon_no-descr {
+    padding-left: 20px;
+}
+
+.clar-info__text {
+    display: inline-block;
+    font-size: 0.9em;
+    vertical-align: center;
+    padding: 12px 0 0 7px;
+}
+
+.add-info {
+    display: table;
+    text-align: left;
+    color: #BABABA;
+    font-size: 0.9em;
+}
+
+.add-info__name, .add-info__post-date, .add-info__point, .add-info__theme {
+    display: table-cell;
+    width: auto;
+    padding: 12px 10px 15px 0;
+}
+
+.add-info__name {
+    color: #868686;
+    font-weight: 600;
+    padding-left: 24px;
+}
+
+.side-image {
+    width: 300px;
+    float: right;
+}
+
+.side-image__card {
+    margin: 15px 8px 0 0;
+    float: right;
+}
+
+.side-image__card_theme_day {
+    width: 80px;
+    height: 80px;
+}
+
+.side-image__card_theme_people {
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
